@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+  html,
+  body,
+  div,
+  span,
+  iframe,
+  blockquote,
+  pre,
+  a,
+  img,
+  ins,
+  b,
+  u,
+  i,
+  ol,
+  ul,
+  li,
+  form,
+  label,
+  table,
+  tbody,
+  tfoot,
+  thead,
+  tr,
+  th,
+  td,
+  article,
+  footer,
+  header,
+  menu,
+  nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 16px;
+    vertical-align: baseline;
+    text-transform: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+  }
+
+}
